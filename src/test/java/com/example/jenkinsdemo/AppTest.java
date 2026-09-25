@@ -13,11 +13,11 @@ class AppTest {
 
     @Test
     void greetFallsBackForBlankName() {
-        assertEquals("Hello, Jenkins", App.greet("   "));
+        assertEquals("Hello, Jenkins... This is Arya here...", App.greet("   "));
     }
 
     @Test
     void greetFallsBackForNullName() {
-        assertEquals("Hello, Jenkins", App.greet(null));
+        assertEquals("Hello, Jenkins... This is Arya here...", App.greet(null));
     }
 }
